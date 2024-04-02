@@ -34,7 +34,7 @@ async def echo(message: types.Message):
         message (types.Message): _description_
     """
 
-    await message.reply(message.text)
+    await message.reply("Got it !!!")
 
 
 if __name__ == "__main__":
